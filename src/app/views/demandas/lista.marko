@@ -1,0 +1,18 @@
+<layout>
+<@heading>
+    <h1>Faz aí</h1>
+</@heading>
+<@content>
+<div class="row">
+    <div for (demanda in data.demandas) class="col-lg demanda">
+        <h4>${demanda.titulo}</h4>
+        <p>${demanda.descricao}</p>
+        <footer>
+            <div class="row">
+                <button class="btn btn-sm btn-black">Apadrinhar</button>
+            </div>
+        </footer>
+    </div>
+</div>
+</@content>
+</layout>

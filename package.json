@@ -1,0 +1,31 @@
+{
+  "name": "colmeia",
+  "version": "1.0.0",
+  "description": "Solução proposta no 1o Hackathon de Inovações para a UFG.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebeccamoraes/colmeia.git"
+  },
+  "keywords": [
+    "universidade",
+    "sociedade",
+    "conexao",
+    "hackathon"
+  ],
+  "author": "Rebecca Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "marko": "4.13.4-1",
+    "sqlite3": "4.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/rebeccamoraes/colmeia/issues"
+  },
+  "homepage": "https://github.com/rebeccamoraes/colmeia#readme"
+}
