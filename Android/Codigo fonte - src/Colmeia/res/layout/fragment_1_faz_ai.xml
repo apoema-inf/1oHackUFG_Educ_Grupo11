@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+android:background="@color/cor_am1">
+
+    <ListView
+            android:background="@color/white"
+            android:layout_below="@+id/fragment_txt_1"
+            android:id="@+id/frag1_listview"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_alignParentStart="true"/>
+
+    <ImageView
+
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/plusbutton"
+            android:id="@+id/frag1_imgview_add" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true"/>
+
+    <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/caviardreams"
+            android:text="Sugestões para a comunidade da UFG resolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/fragment_txt_1"/>
+</RelativeLayout>
